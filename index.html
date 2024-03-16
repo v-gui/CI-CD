@@ -5,13 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega Continua</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- devicon -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-<h1>Entrega</h1>
+    <!-- header design -->
+    <header class="header">
+        
+        <span class="logo">CI/CD</span>
 
-Lorem ipsum dolor sit amet.
+        <nav class="navbar">
+            <a href="#definition">Definição</a>
+            <a href="#tech-stack">Tecnologias Utilizadas</a>
+            <a href="#about">Sobre</a>
+            <a href="https://github.com/v-gui/entregaContinua" target="_blank">Repositório no GitHub <i class='bx bxl-github' ></i></a>
+        </nav>
+    </header>
 
+    <!-- home section desigin -->
+    <section id="definition">
+        <div class="definition-content">
+            
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <h1>Engenharia de Software III</h1>
+            <h3>
+                Por
+                <span class="author"><a href="https://github.com/v-gui" target="_blank">Guilherme Vieira</a></span>
+                e
+                <span class="author"><a href="https://github.com/lucasmmps" target="_blank">Lucas Melo</a></span>
+            </h3>
+            
+            <h1>O que é CI/CD?</h1>
+            <p>
+                <span class="quote">"</span>O propósito da abordagem de <span>CI/CD</span>, sigla em inglês para <span>integração e entrega/implantação contínuas</span>, é otimizar e acelerar o ciclo de vida de desenvolvimento de software.
 
+                A integração contínua (<span>CI</span>) é a prática de integrar, de forma automática e frequente, mudanças a um repositório de código-fonte compartilhado. Já a implantação e/ou entrega contínua (<span>CD</span>) é um processo em duas etapas relacionado a integração, teste e entrega de mudanças no código. A entrega contínua é quase uma implantação automática em produção, enquanto a implantação contínua implica em automaticamente lançar atualizações no ambiente de produção.<span class="quote">"</span>
+            </p>
+
+            <a href="https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd" target="_blank" class="reference">
+                <span>Fonte:</span> O que é CI/CD? -Red Hat
+            </a>
+            
+        </div>
+    </section>
+
+    <!--tech-stack section design-->
+    <section class="tech-stack" id="tech-stack">
+        <h2 class="heading">Tecnologias Utilizadas</h2>
+       
+        <div class="tech-stack-container">
+            
+            <a href="https://git-scm.com/" target="_blank" class="tech-box">
+                    <i class="devicon-git-plain"></i>
+                    <h3>Git</h3>
+            </a>
+
+            <a href="https://github.com/" target="_blank" class="tech-box">
+                <i class="devicon-github-original"></i>
+                <h3>GitHub</h3>
+            </a>
+
+            <a href="https://azure.microsoft.com/" target="_blank" class="tech-box">
+                <i class="devicon-azure-plain"></i>
+                <h3>Azure</h3>
+            </a>
+
+            <a href="https://code.visualstudio.com/" target="_blank" class="tech-box">
+                <i class="devicon-vscode-plain"></i>
+                <h3>VS Code</h3>
+            </a>
+
+            <a href="https://www.w3.org/html/" target="_blank" class="tech-box">
+               <i class="devicon-html5-plain"></i>
+                <h3>HTML</h3>
+            </a>
+
+            <a href="https://www.w3.org/Style/CSS/" target="_blank" class="tech-box">
+                <i class="devicon-css3-plain"></i>
+                <h3>CSS</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+                
+        <div class="about-content">
+            <h2 class="heading">Sobre o projeto</h3>
+            <p>
+                Projeto de website realizado para a atividade prática de integração e entrega continua utilizando as tecnologias aqui referidas.
+            </p>
+
+            <a href="https://github.com/ClaudioNunes" target="_blank" class="mentor">
+                Orientador: <span>Prof. Ms. Claudio Souza Nunes</span>
+            </a>
+            
+        </div>
+    </section>
 </body>
 </html>

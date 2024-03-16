@@ -1,5 +1,7 @@
 # CI / CD
     Eng Software III
 
-# Site totalmente profissional:
+
+# Landing Page Informativa:
+
 https://nice-forest-03934c010.4.azurestaticapps.net/
